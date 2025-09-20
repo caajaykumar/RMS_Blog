@@ -1,0 +1,43 @@
+body { background-color: #f8f9fa; }
+main.container { min-height: 80vh; }
+
+/* Date badge overlay on card image */
+.date-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: #ffffff;
+  color: #0f5132; /* dark green */
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Circular read more button */
+.btn-readmore {
+  border-radius: 5px;
+  background: #ffd84d;
+  color: #0f5132;
+  display: inline-flex
+;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+.btn-readmore:hover {
+  background: #ffc107;
+  color: #0f5132;
+}
+
+/* React Quill editor sizing */
+.quill-wrapper .ql-container {
+  min-height: 200px; /* overall editor box */
+}
+.quill-wrapper .ql-editor {
+  min-height: 240px; /* inner typing area height (less toolbar) */
+}

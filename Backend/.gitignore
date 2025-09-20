@@ -1,0 +1,31 @@
+node_modules/
+.env
+uploads/*
+!uploads/.gitkeep
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+
+# Coverage and test
+coverage/
+.jest/
+
+# Build artifacts
+dist/
+build/
+
+# Editor/OS
+.vscode/
+.idea/
+*.swp
+
+# Misc
+*.local
+*.tsbuildinfo

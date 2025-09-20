@@ -1,0 +1,41 @@
+# Node/Next.js
+node_modules/
+.next/
+out/
+.next/cache/
+.vercel/
+
+# Env and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage and test
+coverage/
+.jest/
+
+# Editor
+.vscode/
+.idea/
+
+# Misc
+*.local
+*.swp
+
+# Typescript build artifacts
+*.tsbuildinfo
+
+# Images or exports generated at build time
+public/export/
